@@ -1,0 +1,172 @@
+*{
+	background-color:;
+	margin:0;
+	font-family: "Kh Battambang",sans-serif;
+}
+#Main{
+	width: 1300px;
+	height: 100px;
+	margin:0 auto;
+    background-color: cyan;
+}
+
+.container-top{
+	width: 1300px;
+	height: 40px;
+	margin:0 auto;
+	background-color:lightgray;
+	line-height: 40px;
+}
+
+.top-menu{
+	float: right;
+}
+.top-menu> a{
+	padding: 0 5px;
+	text-decoration: none;
+	color: gray;
+	font-size: 18px;
+}
+.top-menu> a:hover{
+	padding: 3.5px 5px;
+	text-decoration: none;
+	color: white;	
+	background-color: brown;
+}
+.top-menu> a:focus{
+	padding: 3.5px 5px;
+	text-decoration: none;
+	color: white;
+	background-color: pink;	
+}
+
+/* Menu list*/
+
+.menu{
+	width: 100%;
+	background-color: #142b47;
+	overflow: auto;
+}
+.menu ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	line-height: 50px;
+}
+.menu li{
+	float: left;
+}
+.menu ul li >a{
+	background-color: #142b47;
+	text-decoration: none;
+	width: 130px;
+	display: block;
+	text-align: center;
+	color: #f2f2f2;
+	font-size: 16px;
+	font-family: sans-serif;
+	letter-spacing: 0.5px;
+}
+.menu li a:hover{
+	color: #fff;
+	opacity: 0.5;
+	font-size: 19px;
+}
+
+.menu li a:focus{
+	color: #f2f;
+	opacity: 1;
+	font-size: 19px;
+}
+.search-form{
+	padding: 8px 0;
+	float: right;
+	margin-right: 100px;
+}
+input[type=text]{
+	border:none;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+button{
+	float: right;
+	background-color: orange;
+	color: white;
+	border-radius: 0 5px 5px 0;
+	cursor: :pointer;
+	position: relative;
+	font-family: sans-serif;
+	border:none;
+	font-size: 14px;
+	margin-top: 1.5px;
+}
+
+.form-login{
+    font-family: "Khmer OS" , sans-serif;
+}
+
+/* Categories */
+
+.categories{
+    width: 1300px;
+    height:auto;
+    margin: 0 auto;
+    font-size: 0;
+    font-size: 0;
+    background-color: gainsboro;
+}
+
+.cat-1{
+    width: 325px;
+    height: 400px;
+    font-size: initial;
+    display:inline-block;
+    vertical-align: top;
+}
+.pic a img{
+    font-size: initial;
+    width: 300px;
+    height: 300px;
+    padding: 0 12.5px;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+.cat-1 .pic img:hover{
+    transform: scale(0.99,0.99);
+
+}
+.cat-1 .pro-name a{
+	text-decoration: none;
+	color:black;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.cat-1 .pro-name a:hover{
+	color: red;
+}
+
+
+.cat-1 p{
+	font-size: 22px;
+	color: red;
+	font-weight: bolder;
+	margin-left: 15px;
+	float: left;
+}
+.cat-1 p del{
+	font-size: initial;
+	color: black;
+	font-weight: normal;
+}
+
+.btnbuy{
+	float: right;
+	margin-right: 15px;
+	text-decoration: none;
+	font-weight: bold;
+	background-color:#E74C3C;
+	color: white;
+	padding: 0 10px;
+	border-radius: 5px;
+}
